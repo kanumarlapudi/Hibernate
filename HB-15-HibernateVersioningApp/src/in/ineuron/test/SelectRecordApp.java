@@ -25,7 +25,7 @@ public class SelectRecordApp {
 				System.out.println("Loading the object :: " + mobileCustomer);
     
 				transaction = session.beginTransaction();
-			    mobileCustomer.setCallerTune("ABDABDABD.........");
+			    mobileCustomer.setCallerTune("CSKCSKCSK.........");
 				session.update(mobileCustomer);
 				flag = true;
 				
